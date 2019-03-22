@@ -1,0 +1,15 @@
+{
+  "name": "stephbot",
+  "version": "1.0.0",
+  "description": "Bot for Steph Community Server",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@TheEmrio/StephBot"
+  },
+  "author": "Emrio",
+  "license": "MIT"
+}
