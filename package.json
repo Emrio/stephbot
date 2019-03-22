@@ -11,5 +11,8 @@
     "url": "@TheEmrio/StephBot"
   },
   "author": "Emrio",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
 }
