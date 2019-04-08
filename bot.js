@@ -29,6 +29,7 @@ Bot.on('message', message => {
 
   if (!message || message.author.bot) return
 
+  handlers.add(message)
 
   if (!message.content.startsWith(config.prefix)) return
 
