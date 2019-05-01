@@ -17,7 +17,7 @@ Bot.on('guildMemberAdd', member => {
 })
 
 Bot.on('error', err => {
-  if (err.error.code === 'ENOTFOUND' || err.error.code === 'ETIMEDOUT') {
+  if (err.error.code === 'ENOTFOUND' || err.error.code === 'ETIMEDOUT' || err.error.code === 'ECONNRESET') {
     return console.warn('[StephBot] (🌐) Connection perdue...')
   }
   console.error('Outch, we got an error!')
