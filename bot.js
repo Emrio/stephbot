@@ -6,7 +6,7 @@ const Bot = new Discord.Client()
 
 Bot.on('ready', () => {
   console.log('[StephBot] (🔔) I am ready!')
-  Bot.user.setActivity('Steph on YouTube'/* config.prefix + 'help' */, { type: 'WATCHING' })
+  Bot.user.setActivity(config.presence.text, { type: config.presence.type })
 })
 
 Bot.on('guildMemberAdd', member => {
