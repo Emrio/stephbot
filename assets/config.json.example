@@ -1,0 +1,30 @@
+{
+	"token": "TOKEN",
+	"prefix": "!",
+	"presence": {
+		"type": "WATCHING",
+		"text": "Steph on YouTube"
+	},
+	"memberRole": "Membre",
+	"cmdsDesc": {
+		"admin": {
+			"addrole": "Ajoutez un rôle à l'autorole",
+			"delrole": "Supprimez un rôle de l'autorole",
+			"presence": "Configurez la présence de StephBot"
+		},
+		"verified": {
+			"add": "Ajoutez une commande Minecraft à la documentation"
+		},
+		"everyone": {
+			"autorole": "S'ajoutez un rôle auto-attribuable",
+			"cmd": "Accédez à la documentation sur une commande Minecraft",
+			"help": "Liste des commandes disponibles",
+			"listroles": "Liste des roles auto-attribuables"
+		}
+	},
+	"autorole": [
+		"role1",
+    "role2",
+    "role3"
+	]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "command": "help",
+    "description": "Liste des commandes de Minecraft. Donner une commande en paramètre vous donne ça syntaxe ainsi qu'une brève description.",
+    "syntax": "/help [page|commande]",
+    "version": "*",
+    "examples": [
+      [
+        "/help",
+        "Première page d'aide"
+      ],
+      [
+        "/help 3",
+        "3e page d'aide"
+      ],
+      [
+        "/help tellraw",
+        "Syntaxe et description de la commande tellrraw"
+      ]
+    ]
+  }
+]
